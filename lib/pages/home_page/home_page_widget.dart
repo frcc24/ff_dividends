@@ -87,7 +87,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                             mainAxisSize: MainAxisSize.min,
                             children: [
                               Text(
-                                'Total de \$mes',
+                                'Total de ${DateTime.now().month}',
                                 style: FlutterFlowTheme.of(context)
                                     .headlineSmall
                                     .override(
