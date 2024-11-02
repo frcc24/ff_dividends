@@ -98,7 +98,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                     ),
                               ),
                               Text(
-                                '\$1,234.56',
+                                'R\$ 25000,00',
                                 style: FlutterFlowTheme.of(context)
                                     .displayMedium
                                     .override(
